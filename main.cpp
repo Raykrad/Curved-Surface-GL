@@ -237,7 +237,7 @@ void run() {
         exit(1);
     }
 
-    GLFWwindow* window = glfwCreateWindow(1920, 1080, "Лабораторная работа №5", nullptr, nullptr);
+    GLFWwindow* window = glfwCreateWindow(1920, 1080, "Curved Surface", nullptr, nullptr);
     if (!window) {
         std::cerr << "Failed to create GLFW window" << std::endl;
         glfwTerminate();
