@@ -212,8 +212,8 @@ void mouseCallback(GLFWwindow* window, double xpos, double ypos) {
         firstMouse = false;
     }
 
-    float xoffset = lastX - xpos; // Изменено на lastX - xpos
-    float yoffset = lastY - ypos; // reversed since y-coordinates go from bottom to top
+    float xoffset = lastX - xpos;
+    float yoffset = lastY - ypos;
 
     lastX = xpos;
     lastY = ypos;
